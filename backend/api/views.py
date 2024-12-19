@@ -40,15 +40,3 @@ class NoteDelete(generics.DestroyAPIView):
 		return Note.objects.filter(author=user)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
